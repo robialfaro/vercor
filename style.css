@@ -1,0 +1,66 @@
+/*
+Theme Name: Vercor
+Author: Robi Alfaro
+Author URI: http://robialfaro.dev
+Description: Tema desarrollado para Vercor
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: vercor
+*/
+
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+
+@plugin "@tailwindcss/forms" {
+    strategy: 'class';
+}
+
+@theme {
+    --color-primary-50: #FAF4EC;
+    --color-primary-100: #F2E5CF;
+    --color-primary-200: #E7CCA1;
+    --color-primary-300: #D9AA6B;
+    --color-primary-400: #CD8B42;
+    --color-primary-500: #B47132;
+    --color-primary-600: #A35B2B;
+    --color-primary-700: #834225;
+    --color-primary-800: #6E3825;
+    --color-primary-900: #5E3025;
+    --color-primary-950: #361812;
+
+    --color-secondary-50: #f7f7f6;
+    --color-secondary-100: #e4e4e3;
+    --color-secondary-200: #c9c9c6;
+    --color-secondary-300: #a7a6a1;
+    --color-secondary-400: #84837d;
+    --color-secondary-500: #696963;
+    --color-secondary-600: #53534e;
+    --color-secondary-700: #454440;
+    --color-secondary-800: #393936;
+    --color-secondary-900: #32322f;
+    --color-secondary-950: #1d1d1b;
+    /*main color*/
+}
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: var(--color-secondary-950);
+}
+
+@layer base {
+    .site-container {
+        @apply max-w-screen-xl mx-auto px-5;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center gap-2 font-normal text-center px-5 py-2.5 focus:outline-none focus:ring-4 transition-all duration-100 focus:ring-transparent
+    }
+
+    .btn-primary {
+        @apply text-white bg-primary-500 hover:bg-primary-600;
+    }
+}
