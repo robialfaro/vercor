@@ -77,6 +77,25 @@
     <script>
         lucide.createIcons();
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper-projects', {
+            loop: true,
+            spaceBetween: 30,
+            //centeredSlides: true,
+            autoplay: {
+                delay: 20000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination-custom",
+                clickable: true,
+            },
+        });
+    </script>
+
     </body>
 
     </html>

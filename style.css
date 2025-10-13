@@ -63,4 +63,18 @@ body {
     .btn-primary {
         @apply text-white bg-primary-500 hover:bg-primary-600;
     }
+    .swiper-pagination-custom{
+        @apply flex items-center justify-center mt-6;
+    }
+    .swiper-pagination-bullet{
+        width: 20px !important;
+        height: 20px !important;
+        background-color: var(--color-primary-400) !important;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: var(--color-primary-500) !important;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        color: var(--color-primary-500) !important;
+    }
 }
