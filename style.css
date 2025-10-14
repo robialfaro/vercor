@@ -56,6 +56,17 @@ body {
 }
 
 @layer components {
+
+    .main-menu{
+        @apply flex items-center gap-5 uppercase font-medium;
+    }
+    .main-menu .menu-item a{
+        @apply text-white hover:text-primary-500 inline-block py-5 border-b-2 border-b-secondary-950 hover:border-b-primary-500 transition-all ease-in-out;
+    }
+    .main-menu .menu-item.current-menu-item a{
+        @apply text-primary-500 border-b-primary-500;
+    }
+
     .btn {
         @apply inline-flex items-center gap-2 font-normal text-center px-5 py-2.5 focus:outline-none focus:ring-4 transition-all duration-100 focus:ring-transparent
     }

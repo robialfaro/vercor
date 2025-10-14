@@ -13,7 +13,7 @@
 <section class="about bg-primary-50 py-20">
     <div class="site-container">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 xl:gap-10">
-            <div class="md:col-span-6 lg:col-span-7 xl:col-span-8 flex items-center">
+            <div class="md:col-span-6 lg:col-span-7 xl:col-span-7 flex items-center">
                 <div>
                     <h2 class="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">Nuestra escencia</h2>
                     <p class="lg:text-xl text-gray-600">Desarrollamos proyectos inmobiliarios que generan valor, creando espacios pensados para nuestros clientes y para el bienestar de la comunidad.</p>
@@ -30,11 +30,11 @@
                         </div>
                     </div>
 
-                    <a href="#" class="btn btn-primary uppercase font-medium">Ver más</a>
+                    <a href="http://vercor.test/nosotros/" class="btn btn-primary uppercase font-medium">Conoce más</a>
                 </div>
             </div>
-            <div class="md:col-span-6 lg:col-span-5 xl:col-span-4">
-                <img src="https://placehold.jp/720x870.jpg" class="w-full rounded-lg object-cover object-center">
+            <div class="md:col-span-6 lg:col-span-5 xl:col-span-5">
+                <img src="<?= get_template_directory_uri() ?>/images/vercor-about-home.jpg" class="w-full h-full rounded-lg object-cover object-center shadow">
             </div>
         </div>
     </div>
@@ -84,10 +84,10 @@
             <p class="md:text-lg text-gray-600">Más que construcciones, materializamos tú visión.</p>
         </div>
 
-        <div class="swiper swiper-projects">
+        <div class="swiper swiper-projects mt-12">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-12">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
                             <img src="https://placehold.jp/510x280.jpg" class="w-full rounded-lg object-cover object-center mb-4">
                         </div>
@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-12">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
                             <img src="https://placehold.jp/510x280.jpg" class="w-full rounded-lg object-cover object-center mb-4">
                         </div>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-12">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
                             <img src="https://placehold.jp/510x280.jpg" class="w-full rounded-lg object-cover object-center mb-4">
                         </div>

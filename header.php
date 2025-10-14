@@ -50,16 +50,26 @@
             <nav class="bg-secondary-950 hidden lg:block">
                 <div class="site-container">
                     <div class="flex justify-between items-center gap-5">
-                        <ul class="flex items-center gap-5 uppercase font-medium">
+                        <!-- <ul class="flex items-center gap-5 uppercase font-medium">
                             <li><a href="/" class="text-primary-500 hover:text-primary-500 inline-block py-5 border-b-2 border-b-primary-500 transition-all ease-in-out active">Inicio</a></li>
                             <li><a href="#" class="text-white hover:text-primary-500 inline-block py-5 border-b-2 border-b-secondary-950 hover:border-b-primary-500 transition-all ease-in-out">Nosotros</a></li>
                             <li><a href="#" class="text-white hover:text-primary-500 inline-block py-5 border-b-2 border-b-secondary-950 hover:border-b-primary-500 transition-all ease-in-out">Servicios</a></li>
                             <li><a href="#" class="text-white hover:text-primary-500 inline-block py-5 border-b-2 border-b-secondary-950 hover:border-b-primary-500 transition-all ease-in-out">Proyectos</a></li>
                             <li><a href="#" class="text-white hover:text-primary-500 inline-block py-5 border-b-2 border-b-secondary-950 hover:border-b-primary-500 transition-all ease-in-out">Sostenibilidad</a></li>
                             <li><a href="#" class="text-white hover:text-primary-500 inline-block py-5 border-b-2 border-b-secondary-950 hover:border-b-primary-500 transition-all ease-in-out">Trabaja con nosotros</a></li>
-                        </ul>
+                        </ul> -->
+
+                        <?php
+                        wp_nav_menu(array(
+                            'theme_location' => 'main-menu',
+                            'container' => false,
+                            'menu_class' => 'main-menu',
+                            'fallback_cb' => false,
+                        ));
+                        ?>
+
                         <div>
-                            <a href="#" class="btn btn-primary uppercase font-medium">Contacto <i data-lucide="arrow-right"></i></a>
+                            <a href="http://vercor.test/contacto/" class="btn btn-primary uppercase font-medium">Contacto <i data-lucide="arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
