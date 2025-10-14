@@ -15,7 +15,7 @@
 <section>
     <div class="grid grid-cols-1 md:grid-cols-2">
         <div class="bg-gray-200 order-1 relative">
-            <div class="flex items-center h-full">
+            <div class="flex flex-col justify-center h-full">
                 <div class="py-20 p-10 md:px-14 lg:px-20">
                     <h2 class="text-2xl md:text-3xl font-semibold mb-3">Historia</h2>
                     <p class="text-gray-600 md:text-lg">Somos un grupo empresarial peruano con más de una década de experiencia en el sector construcción. Iniciamos nuestras actividades en 2010 bajo el nombre Miluglama Contratistas S.A.C., enfocándonos en la ejecución de edificaciones para el sector privado.</p>
@@ -25,13 +25,13 @@
             <i data-lucide="triangle" class="md:hidden absolute top-full right-2/4 fill-gray-200 stroke-gray-200 w-10 h-10 rotate-180 translate-y-[-10px] translate-x-[50%]"></i>
         </div>
         <div class="order-2">
-            <img src="https://placehold.jp/640x416.jpg" class="object-cover object-center h-full w-full">
+            <img src="https://placehold.jp/850x500.jpg" class="object-cover object-center h-full w-full">
         </div>
         <div class="order-4 md:order-3">
-            <img src="https://placehold.jp/640x416.jpg" class="object-cover object-center h-full w-full">
+            <img src="<?= get_template_directory_uri() ?>/images/vercor-bout-now.jpg" class="object-cover object-center h-full w-full">
         </div>
         <div class="bg-primary-500 order-3 md:order-4 relative">
-            <div class="flex items-center flex-nowrap h-full">
+            <div class="flex flex-col justify-center flex-nowrap h-full">
                 <div class="py-20 p-10 md:px-14 lg:px-20">
                     <h2 class="text-4xl md:text-5xl lg:text-7xl text-white font-semibold mb-4"><span class="text-xl font-normal">Ahora somos</span><br> VERCOR</h2>
                     <p class="text-primary-100 md:text-lg">Hoy, bajo el nombre VERCOR Construcciones, hemos evolucionado con la visión de renovar, expandir y diversificar nuestra propuesta, consolidándonos como una empresa sólida, innovadora y con compromiso social.</p>
@@ -84,11 +84,14 @@
 <section class="relative overflow-hidden h-[320px]">
     <div class="overlay absolute top-0 w-full h-full bg-slate-900/70"></div>
     <img src="<?= get_template_directory_uri() ?>/images/vercor-sostenibilidad.jpg" class="object-cover object-center w-full h-full">
-    <div class="absolute py-20 bottom-0 left-0 right-0">
-        <div class="site-container text-center">
-            <h1 class="text-white text-3xl md:text-4xl font-semibold mb-8">Promovemos el desarrollo de las comunidades</h1>
-            <a href="#" class="btn btn-primary uppercase">Ver más</a>
-
+    <div class="absolute bottom-0 top-0 left-0 right-0">
+        <div class="site-container h-full">
+            <div class="h-full flex flex-col justify-center">
+                <div class="text-center">
+                    <h1 class="text-white text-3xl md:text-4xl font-semibold mb-8">Promovemos el desarrollo de las comunidades</h1>
+                    <a href="#" class="btn btn-primary uppercase">Ver más</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -115,6 +118,18 @@
             </div>
         </div>
 
+    </div>
+</section>
+
+<section class="bg-white py-20">
+    <div class="site-container">
+        <div class="relative overflow-hidden bg-cover bg-center bg-no-repeat rounded-lg" style="background-image: url('https://placehold.jp/1280x500.jpg')">
+            <div class="overlay absolute top-0 bottom-0 left-0 right-0 bg-linear-to-r from-slate-900/90 via-slate-900/80 to-slate-900/60"></div>
+            <div class="relative px-10 py-20 md:py-28">
+                <h4 class="text-white md:text-lg md:max-w-1/2 mb-8">Creamos espacios eficientes y, sobre todo, seguros, cumpliendo rigurosamente con las normas estructurales para garantizar el bienestar de la comunidad.</h4>
+                <a href="#" class="btn btn-primary uppercase">Ver proyectos</a>
+            </div>
+        </div>
     </div>
 </section>
 
