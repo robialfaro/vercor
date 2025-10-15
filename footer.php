@@ -47,7 +47,7 @@
                                     <div>
                                         <i data-lucide="mail-check" class="h-5 w-5"></i>
                                     </div>
-                                    <a href="mailto:info@vercor.com">info@vercor.com</a>
+                                    <a href="mailto:info@vercor.com">info@vercor.pe</a>
                                 </li>
                                 <li class="text-primary-100 hover:text-white flex gap-2">
                                     <div>

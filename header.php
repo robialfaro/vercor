@@ -35,7 +35,7 @@
                                 <i data-lucide="mail-check" class="stroke-1 text-primary-500 w-9 h-9"></i>
                                 <div>
                                     <p class="text-primary-500">Correo</p>
-                                    <p class="font-medium"><a href="mailto:info@vercor.com">info@vercor.com</a></p>
+                                    <p class="font-medium"><a href="mailto:info@vercor.com">info@vercor.pe</a></p>
                                 </div>
                             </div>
                             <div class="flex items-center gap-4">

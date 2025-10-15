@@ -123,7 +123,7 @@
 
 <section class="bg-white py-20">
     <div class="site-container">
-        <div class="relative overflow-hidden bg-cover bg-center bg-no-repeat rounded-lg" style="background-image: url('https://placehold.jp/1280x500.jpg')">
+        <div class="relative overflow-hidden bg-cover bg-center bg-no-repeat rounded-lg" style="background-image: url('<?= get_template_directory_uri() ?>/images/projects/residencial-atika.jpg')">
             <div class="overlay absolute top-0 bottom-0 left-0 right-0 bg-linear-to-r from-slate-900/90 via-slate-900/80 to-slate-900/50"></div>
             <div class="relative px-10 py-20 md:py-28">
                 <h4 class="text-white md:text-lg md:max-w-1/2 mb-8">Creamos espacios eficientes y, sobre todo, seguros, cumpliendo rigurosamente con las normas estructurales para garantizar el bienestar de la comunidad.</h4>
