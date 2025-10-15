@@ -73,7 +73,7 @@
                 </div>
                 <div class="flex items-center md:justify-end">
                     <div>
-                        <a href="#" class="btn btn-primary uppercase">Ver servicios</a>
+                        <a href="<?= get_site_url() ?>/servicios" class="btn btn-primary uppercase">Ver servicios</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
             <div class="overlay absolute top-0 bottom-0 left-0 right-0 bg-linear-to-r from-slate-900/90 via-slate-900/80 to-slate-900/50"></div>
             <div class="relative px-10 py-20 md:py-28">
                 <h4 class="text-white md:text-lg md:max-w-1/2 mb-8">Creamos espacios eficientes y, sobre todo, seguros, cumpliendo rigurosamente con las normas estructurales para garantizar el bienestar de la comunidad.</h4>
-                <a href="#" class="btn btn-primary uppercase">Ver proyectos</a>
+                <a href="<?= get_site_url() ?>/proyectos" class="btn btn-primary uppercase">Ver proyectos</a>
             </div>
         </div>
     </div>

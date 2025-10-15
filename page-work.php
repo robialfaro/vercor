@@ -35,7 +35,7 @@
                 </div>
                 <div class="flex items-center md:justify-end">
                     <div>
-                        <a href="#" class="btn btn-primary uppercase">Postula aquí <i data-lucide="external-link"></i></a>
+                        <a href="#" target="_blank" class="btn btn-primary uppercase">Postula aquí <i data-lucide="external-link"></i></a>
                     </div>
                 </div>
             </div>

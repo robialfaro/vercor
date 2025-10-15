@@ -21,46 +21,46 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
                                 <label class="block font-medium mb-2">Nombres</label>
-                                <input type="text" id="first_name" class="form-input focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
+                                <input type="text" id="first_name" class="form-input border-gray-300 shadow-sm focus:border-primary-200 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
                             </div>
                             <div>
                                 <label class="block font-medium mb-2">Apellidos</label>
-                                <input type="text" id="last_name" class="form-input focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
+                                <input type="text" id="last_name" class="form-input border-gray-300 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
                             </div>
                         </div>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
                                 <label class="block font-medium mb-2">Correo</label>
-                                <input type="text" id="last_name" class="form-input focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
+                                <input type="text" id="last_name" class="form-input border-gray-300 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
                             </div>
                             <div>
                                 <label class="block font-medium mb-2">Teléfono</label>
-                                <input type="text" id="last_name" class="form-input focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
+                                <input type="text" id="last_name" class="form-input border-gray-300 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
                             </div>
                         </div>
                     </div>
 
                     <div class="mt-6">
                         <label class="block font-medium mb-2">Asunto</label>
-                        <select type="text" id="subject" class="form-select focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
+                        <select type="text" id="subject" class="form-select border-gray-300 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
                             <option value="">--Seleccione--</option>
                         </select>
                     </div>
 
                     <div class="mt-6">
                         <label class="block font-medium mb-2">Mensasje</label>
-                        <textarea type="text" id="message" class="form-textarea focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full" rows="5"></textarea>
+                        <textarea type="text" id="message" class="form-textarea shadow-sm border-gray-300 focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full" rows="5"></textarea>
                     </div>
 
                     <div class="mt-6">
-                        <label class="block font-medium mb-2">
-                            <input type="checkbox" id="accept_terms" class="form-checkbox focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50">
+                        <label class="block cursor-pointer mb-2">
+                            <input type="checkbox" id="accept_terms" class="form-checkbox shadow-sm mr-2 accent-primary-500 border-gray-300 focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50">
                             Acepto los términos y condiciones.
                         </label>
                     </div>
 
-                    <input type="submit" class="btn btn-primary mt-6" value="Enviar">
+                    <input type="submit" class="btn btn-primary mt-6 cursor-pointer" value="Enviar">
 
                 </div>
                 <div>

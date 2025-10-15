@@ -30,7 +30,7 @@
                         </div>
                     </div>
 
-                    <a href="http://vercor.test/nosotros/" class="btn btn-primary uppercase font-medium">Conoce más</a>
+                    <a href="<?= get_site_url() ?>/nosotros/" class="btn btn-primary uppercase font-medium">Conoce más</a>
                 </div>
             </div>
             <div class="md:col-span-6 lg:col-span-5 xl:col-span-5">
@@ -47,38 +47,14 @@
             <p class="text-2xl md:text-3xl font-semibold">Impulsamos nuestros servicios en los siguientes sectores</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-12">
-            <div>
-                <img src="https://placehold.jp/510x250.jpg" class="w-full rounded-lg object-cover object-center mb-4">
-                <h4 class="text-xl md:text-2xl text-primary-500 font-medium">Gas y Petróleo</h4>
-            </div>
-            <div>
-                <img src="https://placehold.jp/510x250.jpg" class="w-full rounded-lg object-cover object-center mb-4">
-                <h4 class="text-xl md:text-2xl text-primary-500 font-medium">Minería</h4>
-            </div>
-            <div>
-                <img src="https://placehold.jp/510x250.jpg" class="w-full rounded-lg object-cover object-center mb-4">
-                <h4 class="text-xl md:text-2xl text-primary-500 font-medium">Energía</h4>
-            </div>
-            <div>
-                <img src="https://placehold.jp/510x250.jpg" class="w-full rounded-lg object-cover object-center mb-4">
-                <h4 class="text-xl md:text-2xl text-primary-500 font-medium">Industria</h4>
-            </div>
-            <div>
-                <img src="https://placehold.jp/510x250.jpg" class="w-full rounded-lg object-cover object-center mb-4">
-                <h4 class="text-xl md:text-2xl text-primary-500 font-medium">Infraestructura</h4>
-            </div>
-            <div>
-                <img src="https://placehold.jp/510x250.jpg" class="w-full rounded-lg object-cover object-center mb-4">
-                <h4 class="text-xl md:text-2xl text-primary-500 font-medium">Edificaciones</h4>
-            </div>
-        </div>
+        <?= get_template_part('template-parts/services-list') ?>
+
     </div>
 </section>
 
 <section class="projects py-20 bg-primary-50">
     <div class="site-container">
-        <div class="text-center max-w-2xl mx-auto">
+        <div class="text-center md:max-w-2xl mx-auto">
             <h2 class="text-primary-500 text-xl md:text-2xl mb-3">Proyectos</h2>
             <p class="text-2xl md:text-3xl font-semibold mb-3">Nuestro legado en cada obra</p>
             <p class="md:text-lg text-gray-600">Más que construcciones, materializamos tú visión.</p>
@@ -86,57 +62,139 @@
 
         <div class="swiper swiper-projects mt-12">
             <div class="swiper-wrapper">
+
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="https://placehold.jp/510x280.jpg" class="w-full rounded-lg object-cover object-center mb-4">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-atika.jpg" class="w-full rounded-lg object-cover object-center">
                         </div>
                         <div class="flex items-center">
                             <div>
                                 <p class="text-lg text-primary-500 mb-1">Proyecto</p>
-                                <h4 class="text-2xl font-medium mb-3">
-                                    Lorem ipsum dolor sit amet consectetur lectus felis eget
-                                </h4>
-                                <p class="text-gray-600 mb-5">Lorem ipsum dolor sit amet consectetur. Faucibus iaculis lacus scelerisque diam.</p>
-                                <a href="#" class="btn btn-primary uppercase">Ver más</a>
+                                <h4 class="text-2xl lg:text-4xl font-medium mb-6">Residencial ATIKA</h4>
+
+                                <ul class="text-gray-600 space-y-2 mb-10">
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 13 pisos con semisotano.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2024.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. El Recreo.</span></li>
+                                </ul>
+
+                                <!-- <a href="https://maps.app.goo.gl/eRSwDbbLcStbxzf48" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="https://placehold.jp/510x280.jpg" class="w-full rounded-lg object-cover object-center mb-4">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-flor-de-la-canela.jpg" class="w-full rounded-lg object-cover object-center">
                         </div>
                         <div class="flex items-center">
                             <div>
                                 <p class="text-lg text-primary-500 mb-1">Proyecto</p>
-                                <h4 class="text-2xl font-medium mb-3">
-                                    Lorem ipsum dolor sit amet consectetur lectus felis eget
-                                </h4>
-                                <p class="text-gray-600 mb-5">Lorem ipsum dolor sit amet consectetur. Faucibus iaculis lacus scelerisque diam.</p>
-                                <a href="#" class="btn btn-primary uppercase">Ver más</a>
+                                <h4 class="text-2xl lg:text-4xl font-medium mb-6">Residencial Flor de la Canela</h4>
+
+                                <ul class="text-gray-600 space-y-2 mb-10">
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 7 pisos.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2017.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Calle Flor de la Canela #837, Urb. El Golf.</span></li>
+                                </ul>
+
+                                <a href="https://maps.app.goo.gl/eRSwDbbLcStbxzf48" target="_blank" class="btn btn-primary uppercase">Ver más</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="https://placehold.jp/510x280.jpg" class="w-full rounded-lg object-cover object-center mb-4">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/las-terrazas-de-san-andres.jpg" class="w-full rounded-lg object-cover object-center">
                         </div>
                         <div class="flex items-center">
                             <div>
                                 <p class="text-lg text-primary-500 mb-1">Proyecto</p>
-                                <h4 class="text-2xl font-medium mb-3">
-                                    Lorem ipsum dolor sit amet consectetur lectus felis eget
-                                </h4>
-                                <p class="text-gray-600 mb-5">Lorem ipsum dolor sit amet consectetur. Faucibus iaculis lacus scelerisque diam.</p>
-                                <a href="#" class="btn btn-primary uppercase">Ver más</a>
+                                <h4 class="text-2xl lg:text-4xl font-medium mb-6">Las Terrazas de San Andrés</h4>
+
+                                <ul class="text-gray-600 space-y-2 mb-10">
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 12 pisos.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2016.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Calle Dean Saavedra #368, Urb. San Andrés.</span></li>
+                                </ul>
+
+                                <a href="https://maps.app.goo.gl/fuSb3zDnLdoYevBn8" target="_blank" class="btn btn-primary uppercase">Ver más</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="swiper-slide">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+                        <div>
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/las-terrazas-de-california.jpg" class="w-full rounded-lg object-cover object-center">
+                        </div>
+                        <div class="flex items-center">
+                            <div>
+                                <p class="text-lg text-primary-500 mb-1">Proyecto</p>
+                                <h4 class="text-2xl lg:text-4xl font-medium mb-6">Las Terrazas de California</h4>
+
+                                <ul class="text-gray-600 space-y-2 mb-10">
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 8 pisos.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2013.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Calle Los Geranios #240, Urb. Californa.</span></li>
+                                </ul>
+
+                                <a href="https://maps.app.goo.gl/MPgnPYmzLYX6PB8a8" target="_blank" class="btn btn-primary uppercase">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+                        <div>
+                            <img src="https://placehold.jp/1200x800.jpg" class="w-full rounded-lg object-cover object-center">
+                        </div>
+                        <div class="flex items-center">
+                            <div>
+                                <p class="text-lg text-primary-500 mb-1">Proyecto</p>
+                                <h4 class="text-2xl lg:text-4xl font-medium mb-6">Residencial El Cortijo</h4>
+
+                                <ul class="text-gray-600 space-y-2 mb-10">
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 5 pisos.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2010.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. Popilar, El Cortijo.</span></li>
+                                </ul>
+
+                                <!-- <a href="https://maps.app.goo.gl/MPgnPYmzLYX6PB8a8" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+                        <div>
+                            <img src="https://placehold.jp/1200x800.jpg" class="w-full rounded-lg object-cover object-center">
+                        </div>
+                        <div class="flex items-center">
+                            <div>
+                                <p class="text-lg text-primary-500 mb-1">Proyecto</p>
+                                <h4 class="text-2xl lg:text-4xl font-medium mb-6">Residencial Los Girasoles</h4>
+
+                                <ul class="text-gray-600 space-y-2 mb-10">
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 5 pisos.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2010.</span></li>
+                                    <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. Victor Larco.</span></li>
+                                </ul>
+
+                                <!-- <a href="https://maps.app.goo.gl/MPgnPYmzLYX6PB8a8" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="swiper-pagination-custom"></div>
         </div>

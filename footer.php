@@ -16,11 +16,11 @@
                         <div>
                             <h5 class="text-white text-xl font-medium mb-4">Vercor</h5>
                             <ul class="space-y-2.5 text-sm">
-                                <li class="text-primary-100 hover:text-white"><a href="#">Inicio</a></li>
-                                <li class="text-primary-100 hover:text-white"><a href="#">Nosotros</a></li>
-                                <li class="text-primary-100 hover:text-white"><a href="#">Servicios</a></li>
-                                <li class="text-primary-100 hover:text-white"><a href="#">Proyectos</a></li>
-                                <li class="text-primary-100 hover:text-white"><a href="#">Trabaja con nosotros</a></li>
+                                <li class="text-primary-100 hover:text-white"><a href="<?= get_site_url() ?>">Inicio</a></li>
+                                <li class="text-primary-100 hover:text-white"><a href="<?= get_site_url() ?>/nosotros">Nosotros</a></li>
+                                <li class="text-primary-100 hover:text-white"><a href="<?= get_site_url() ?>/servicios">Servicios</a></li>
+                                <li class="text-primary-100 hover:text-white"><a href="<?= get_site_url() ?>/proyectos">Proyectos</a></li>
+                                <li class="text-primary-100 hover:text-white"><a href="<?= get_site_url() ?>/trabaja-con-nosotros">Trabaja con nosotros</a></li>
                             </ul>
                         </div>
                         <div>
