@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="md:col-span-6 lg:col-span-5 xl:col-span-5">
-                <img src="<?= get_template_directory_uri() ?>/images/vercor-acerca-de-inicio.jpg" class="w-full h-full rounded-lg object-cover object-center shadow">
+                <img src="<?= get_template_directory_uri() ?>/images/vercor-acerca-de-inicio.jpg" class="w-full h-full object-cover object-center rounded-xl shadow-lg">
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
 <section class="services bg-white py-20">
     <div class="site-container">
         <div class="text-center max-w-2xl mx-auto">
-            <h2 class="text-primary-500 text-xl md:text-2xl mb-3">Servicios</h2>
+            <h2 class="text-primary-500 text-xl md:text-2xl mb-2">Servicios</h2>
             <p class="text-2xl md:text-3xl font-semibold">Impulsamos nuestros servicios en los siguientes sectores</p>
         </div>
 
@@ -55,7 +55,7 @@
 <section class="projects py-20 bg-primary-50">
     <div class="site-container">
         <div class="text-center md:max-w-2xl mx-auto">
-            <h2 class="text-primary-500 text-xl md:text-2xl mb-3">Proyectos</h2>
+            <h2 class="text-primary-500 text-xl md:text-2xl mb-2">Proyectos</h2>
             <p class="text-2xl md:text-3xl font-semibold mb-3">Nuestro legado en cada obra</p>
             <p class="md:text-lg text-gray-600">Más que construcciones, materializamos tú visión.</p>
         </div>
@@ -66,7 +66,7 @@
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-atika.jpg" class="w-full rounded-lg object-cover object-center">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-atika.jpg" class="w-full object-cover object-center rounded-xl shadow-lg">
                         </div>
                         <div class="flex items-center">
                             <div>
@@ -88,7 +88,7 @@
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-flor-de-la-canela.jpg" class="w-full rounded-lg object-cover object-center">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-flor-de-la-canela.jpg" class="w-full object-cover object-center rounded-xl shadow-lg">
                         </div>
                         <div class="flex items-center">
                             <div>
@@ -110,7 +110,7 @@
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="<?= get_template_directory_uri() ?>/images/projects/las-terrazas-de-san-andres.jpg" class="w-full rounded-lg object-cover object-center">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/las-terrazas-de-san-andres.jpg" class="w-full object-cover object-center rounded-xl shadow-lg">
                         </div>
                         <div class="flex items-center">
                             <div>
@@ -132,7 +132,7 @@
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="<?= get_template_directory_uri() ?>/images/projects/las-terrazas-de-california.jpg" class="w-full rounded-lg object-cover object-center">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/las-terrazas-de-california.jpg" class="w-full object-cover object-center rounded-xl shadow-lg">
                         </div>
                         <div class="flex items-center">
                             <div>
@@ -154,7 +154,7 @@
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-el-cortijo.jpg" class="w-full rounded-lg object-cover object-center">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-el-cortijo.jpg" class="w-full object-cover object-center rounded-xl shadow-lg">
                         </div>
                         <div class="flex items-center">
                             <div>
@@ -176,7 +176,7 @@
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                         <div>
-                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-los-girasoles.jpg" class="w-full rounded-lg object-cover object-center">
+                            <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-los-girasoles.jpg" class="w-full object-cover object-center rounded-xl shadow-lg">
                         </div>
                         <div class="flex items-center">
                             <div>

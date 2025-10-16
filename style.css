@@ -70,7 +70,7 @@ body {
     }
 
     .btn {
-        @apply inline-flex items-center gap-2 font-normal text-center px-5 py-2.5 focus:outline-none focus:ring-4 transition-all duration-100 focus:ring-transparent
+        @apply inline-flex items-center gap-2 font-normal text-center px-5 py-2.5 focus:outline-none focus:ring-4 transition-all duration-100 focus:ring-transparent rounded-sm;
     }
 
     .btn-primary {

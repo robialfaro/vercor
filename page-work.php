@@ -16,7 +16,7 @@
     <div class="site-container">
         <div class="grid col-span-1 md:grid-cols-2 gap-8 mb-18">
             <div>
-                <img src="<?= get_template_directory_uri() ?>/images/vercor-trabaja-con-nosotros.jpg" class="object-cover object-center w-full h-full rounded-lg">
+                <img src="<?= get_template_directory_uri() ?>/images/vercor-trabaja-con-nosotros.jpg" class="object-cover object-center w-full h-full rounded-xl shadow-xl">
             </div>
             <div>
                 <div class="flex flex-col justify-center h-full">
@@ -28,7 +28,8 @@
             </div>
         </div>
 
-        <div class="p-10 lg:p-20 bg-primary-100 rounded-lg">
+        <div class="p-10 lg:p-20 bg-primary-100 rounded-xl shadow-xl">
+            <h2 class="text-2xl md:text-4xl font-semibold mb-3">¡Únete!</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-y-8 md:gap-8">
                 <div class="col-span-2">
                     <p class="md:text-lg">Si compartes nuestro compromiso con la excelencia, la innovación y el desarrollo sostenible, este es tu lugar para crecer y construir un futuro junto a un equipo que transforma ideas en realidades duraderas.</p>

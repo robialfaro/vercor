@@ -34,7 +34,7 @@
             <div class="flex flex-col justify-center flex-nowrap h-full">
                 <div class="py-20 p-10 md:px-14 lg:px-20">
                     <h2 class="text-4xl md:text-5xl lg:text-7xl text-white font-semibold mb-4"><span class="text-xl font-normal">Ahora somos</span><br> VERCOR</h2>
-                    <p class="text-primary-100 md:text-lg">Hoy, bajo el nombre VERCOR Construcciones, hemos evolucionado con la visión de renovar, expandir y diversificar nuestra propuesta, consolidándonos como una empresa sólida, innovadora y con compromiso social.</p>
+                    <p class="text-primary-50 md:text-lg">Hoy, bajo el nombre VERCOR Construcciones, hemos evolucionado con la visión de renovar, expandir y diversificar nuestra propuesta, consolidándonos como una empresa sólida, innovadora y con compromiso social.</p>
                 </div>
             </div>
             <i data-lucide="triangle" class="hidden md:block absolute right-full top-2/4 fill-primary-500 stroke-primary-500 w-10 h-10 -rotate-90 translate-x-[10px] translate-y-[-50%]"></i>
@@ -50,12 +50,12 @@
         </div>
 
         <div class="grid md:grid-cols-2 gap-8 mt-12">
-            <div class="p-10 bg-white rounded-lg">
-                <h4 class="text-xl font-semibold mb-4">Misión</h4>
+            <div class="p-10 bg-white rounded-xl shadow-lg">
+                <h4 class="text-xl md:text-2xl font-semibold mb-4">Misión</h4>
                 <p class="text-gray-600 md:text-lg">En Vercor, desarrollamos proyectos inmobiliarios, industriales y públicos con altos estándares de calidad, eficiencia y responsabilidad, creando espacios que generan valor duradero para nuestros clientes y la comunidad. Nos comprometemos a construir con excelencia, fieles a nuestros valores y filosofía, para aportar soluciones sostenibles que impulsen el progreso colectivo.</p>
             </div>
-            <div class="p-10 bg-white rounded-lg">
-                <h4 class="text-xl font-semibold mb-4">Visión</h4>
+            <div class="p-10 bg-white rounded-xl shadow-lg">
+                <h4 class="text-xl md:text-2xl font-semibold mb-4">Visión</h4>
                 <p class="text-gray-600 md:text-lg">Al 2030 ser referentes en el sector de la construcción, liderando con eficacia y compromiso en la creación de estructuras sólidas, sostenibles y de alto impacto social. Aspiramos a contribuir al desarrollo humano, la prosperidad compartida y el bienestar de las comunidades, generando un legado positivo para las generaciones presentes y futuras.</p>
             </div>
         </div>
@@ -65,7 +65,7 @@
 
 <section class="py-20">
     <div class="site-container">
-        <div class="p-10 lg:p-20 bg-primary-100 rounded-lg">
+        <div class="p-10 lg:p-20 bg-primary-100 rounded-xl shadow-lg">
             <h2 class="text-2xl md:text-4xl font-semibold mb-3">Servicios</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-y-8 md:gap-8">
                 <div class="col-span-2">
@@ -82,14 +82,14 @@
 </section>
 
 <section class="relative overflow-hidden h-[320px]">
-    <div class="overlay absolute top-0 w-full h-full bg-slate-900/70"></div>
+    <div class="overlay absolute top-0 w-full h-full bg-green-950/85"></div>
     <img src="<?= get_template_directory_uri() ?>/images/vercor-sostenibilidad.jpg" class="object-cover object-center w-full h-full">
     <div class="absolute bottom-0 top-0 left-0 right-0">
         <div class="site-container h-full">
             <div class="h-full flex flex-col justify-center">
                 <div class="text-center">
-                    <h1 class="text-white text-3xl md:text-4xl font-semibold mb-8">Promovemos el desarrollo de las comunidades</h1>
-                    <a href="#" class="btn btn-primary uppercase">Ver más</a>
+                    <h1 class="text-white text-3xl md:text-4xl font-semibold mb-8">Promovemos el desarrollo sostenible</h1>
+                    <a href="<?= get_site_url() ?>/sostenibilidad/" class="btn btn-primary bg-green-700 hover:bg-green-800 uppercase">Ver más</a>
                 </div>
             </div>
         </div>
@@ -103,8 +103,13 @@
         </div>
 
         <div class="grid md:grid-cols-2 gap-8 mt-12">
-            <div class="p-10 bg-white rounded-lg">
-                <h4 class="text-xl font-semibold mb-4">1. Normas ISO</h4>
+            <div class="p-10 bg-white rounded-xl shadow-lg">
+                <div class="mb-6">
+                    <a href="https://www.iso.org/" target="_blank">
+                        <img src="<?= get_template_directory_uri() ?>/images/iso-logo.gif" class="h-14">
+                    </a>
+                </div>
+                <h4 class="text-xl md:text-2xl text-[#E3000F] font-semibold mb-4">Normas ISO</h4>
                 <p class="text-gray-600 md:text-lg mb-4">Aplicamos los más altos estándares internacionales establecidos por la Organización Internacional de Normalización (ISO)</p>
                 <ul class="text-gray-600 md:text-lg">
                     <li>- ISO 9001: Gestión de calidad.</li>
@@ -112,8 +117,13 @@
                     <li>- ISO 45001: Seguridad y salud en el trabajo.</li>
                 </ul>
             </div>
-            <div class="p-10 bg-white rounded-lg">
-                <h4 class="text-xl font-semibold mb-4">2. Lean Construction</h4>
+            <div class="p-10 bg-white rounded-xl shadow-lg">
+                <div class="mb-6">
+                    <a href="https://leanconstruction.org/" target="_blank">
+                        <img src="<?= get_template_directory_uri() ?>/images/lean-construction-iso.svg" class="h-14">
+                    </a>
+                </div>
+                <h4 class="text-xl md:text-2xl text-[#305094] font-semibold mb-4">Lean Construction</h4>
                 <p class="text-gray-600 md:text-lg">Adoptamos la metodología Lean Construction, una filosofía de gestión de proyectos que tiene como objetivo maximizar el valor para el cliente y reducir al mínimo los desperdicios durante todo el proceso constructivo, promoviendo así una mayor eficiencia, colaboración y sostenibilidad.</p>
             </div>
         </div>
