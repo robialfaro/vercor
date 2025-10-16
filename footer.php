@@ -8,7 +8,7 @@
                         <img src="<?= get_template_directory_uri() ?>/images/vercor-logo-blanco.svg">
                     </a>
                     <p class="text-primary-100 text-xs mt-5 mb-4">Más allá de las estructuras, impulsamos lo que trasciende.</p>
-                    <p class="text-primary-100 text-xs">VERCOR CONSTRUCCIONES S.A.</p>
+                    <p class="text-primary-100 text-xs">VERCOR Construcciones</p>
                     <p class="text-primary-100 text-xs">RUC: 20482508317</p>
                 </div>
                 <div class="xl:col-span-3">

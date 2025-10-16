@@ -15,7 +15,7 @@
 <section class="py-20">
     <div class="site-container">
         <div class="grid grid-cols-1 gap-8">
-            <div class="swiper-slide">
+            <div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                     <div>
                         <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-atika.jpg" class="w-full rounded-lg object-cover object-center">
@@ -28,7 +28,7 @@
                             <ul class="text-gray-600 space-y-2 mb-10">
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 13 pisos con semisotano.</span></li>
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2024.</span></li>
-                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. El Recreo.</span></li>
+                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. El Recreo, Trujillo.</span></li>
                             </ul>
 
                             <!-- <a href="https://maps.app.goo.gl/eRSwDbbLcStbxzf48" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide">
+            <div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                     <div>
                         <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-flor-de-la-canela.jpg" class="w-full rounded-lg object-cover object-center">
@@ -50,16 +50,16 @@
                             <ul class="text-gray-600 space-y-2 mb-10">
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 7 pisos.</span></li>
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2017.</span></li>
-                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Calle Flor de la Canela #837, Urb. El Golf.</span></li>
+                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. El Golf, Trujillo.</span></li>
                             </ul>
 
-                            <a href="https://maps.app.goo.gl/eRSwDbbLcStbxzf48" target="_blank" class="btn btn-primary uppercase">Ver más</a>
+                            <!-- <a href="https://maps.app.goo.gl/eRSwDbbLcStbxzf48" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="swiper-slide">
+            <div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                     <div>
                         <img src="<?= get_template_directory_uri() ?>/images/projects/las-terrazas-de-san-andres.jpg" class="w-full rounded-lg object-cover object-center">
@@ -72,16 +72,16 @@
                             <ul class="text-gray-600 space-y-2 mb-10">
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 12 pisos.</span></li>
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2016.</span></li>
-                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Calle Dean Saavedra #368, Urb. San Andrés.</span></li>
+                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. San Andrés, Trujillo.</span></li>
                             </ul>
 
-                            <a href="https://maps.app.goo.gl/fuSb3zDnLdoYevBn8" target="_blank" class="btn btn-primary uppercase">Ver más</a>
+                            <!-- <a href="https://maps.app.goo.gl/fuSb3zDnLdoYevBn8" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="swiper-slide">
+            <div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                     <div>
                         <img src="<?= get_template_directory_uri() ?>/images/projects/las-terrazas-de-california.jpg" class="w-full rounded-lg object-cover object-center">
@@ -94,29 +94,7 @@
                             <ul class="text-gray-600 space-y-2 mb-10">
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 8 pisos.</span></li>
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2013.</span></li>
-                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Calle Los Geranios #240, Urb. Californa.</span></li>
-                            </ul>
-
-                            <a href="https://maps.app.goo.gl/MPgnPYmzLYX6PB8a8" target="_blank" class="btn btn-primary uppercase">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
-                    <div>
-                        <img src="https://placehold.jp/1200x800.jpg" class="w-full rounded-lg object-cover object-center">
-                    </div>
-                    <div class="flex items-center">
-                        <div>
-                            <p class="text-lg text-primary-500 mb-1">Proyecto</p>
-                            <h4 class="text-2xl lg:text-4xl font-medium mb-6">Residencial El Cortijo</h4>
-
-                            <ul class="text-gray-600 space-y-2 mb-10">
-                                <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 5 pisos.</span></li>
-                                <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2010.</span></li>
-                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. Popilar, El Cortijo.</span></li>
+                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. California, Trujillo.</span></li>
                             </ul>
 
                             <!-- <a href="https://maps.app.goo.gl/MPgnPYmzLYX6PB8a8" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->
@@ -125,7 +103,29 @@
                 </div>
             </div>
 
-            <div class="swiper-slide">
+            <div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+                    <div>
+                        <img src="<?= get_template_directory_uri() ?>/images/projects/residencial-el-cortijo.jpg" class="w-full rounded-lg object-cover object-center">
+                    </div>
+                    <div class="flex items-center">
+                        <div>
+                            <p class="text-lg text-primary-500 mb-1">Proyecto</p>
+                            <h4 class="text-2xl lg:text-4xl font-medium mb-6">Residencial El Cortijo</h4>
+
+                            <ul class="text-gray-600 space-y-2 mb-10">
+                                <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 5 pisos.</span></li>
+                                <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2012.</span></li>
+                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. Popilar, El Cortijo, Trujillo.</span></li>
+                            </ul>
+
+                            <!-- <a href="https://maps.app.goo.gl/MPgnPYmzLYX6PB8a8" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                     <div>
                         <img src="https://placehold.jp/1200x800.jpg" class="w-full rounded-lg object-cover object-center">
@@ -138,7 +138,7 @@
                             <ul class="text-gray-600 space-y-2 mb-10">
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="building" class="text-primary-500 h-5 w-5"></i></span><span>Edificio multifamiliar de 5 pisos.</span></li>
                                 <li class="flex md:items-center gap-2"><span><i data-lucide="calendar-check" class="text-primary-500 h-5 w-5"></i></span><span>Año de ejecución: 2010.</span></li>
-                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. Victor Larco.</span></li>
+                                <li class="flex md:items-center gap-2"><span><i data-lucide="map-pin-check-inside" class="text-primary-500 h-5 w-5"></i></span><span>Urb. Victor Larco, Trujillo.</span></li>
                             </ul>
 
                             <!-- <a href="https://maps.app.goo.gl/MPgnPYmzLYX6PB8a8" target="_blank" class="btn btn-primary uppercase">Ver más</a> -->

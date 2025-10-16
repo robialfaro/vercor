@@ -45,6 +45,11 @@
                         <label class="block font-medium mb-2">Asunto</label>
                         <select type="text" id="subject" class="form-select border-gray-300 shadow-sm focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 w-full">
                             <option value="">--Seleccione--</option>
+                            <option value="">Administrativo</option>
+                            <option value="">Cotización</option>
+                            <option value="">Operaciones</option>
+                            <option value="">Sostenibilidad</option>
+                            <option value="">Otros</option>
                         </select>
                     </div>
 

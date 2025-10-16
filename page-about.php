@@ -25,10 +25,10 @@
             <i data-lucide="triangle" class="md:hidden absolute top-full right-2/4 fill-gray-200 stroke-gray-200 w-10 h-10 rotate-180 translate-y-[-10px] translate-x-[50%]"></i>
         </div>
         <div class="order-2">
-            <img src="https://placehold.jp/850x500.jpg" class="object-cover object-center h-full w-full">
+            <img src="<?= get_template_directory_uri() ?>/images/vercor-acerca-de-historia.jpg" class="object-cover object-center h-full w-full">
         </div>
         <div class="order-4 md:order-3">
-            <img src="<?= get_template_directory_uri() ?>/images/vercor-about-now.jpg" class="object-cover object-center h-full w-full">
+            <img src="<?= get_template_directory_uri() ?>/images/vercor-acerca-de-ahora.jpg" class="object-cover object-center h-full w-full">
         </div>
         <div class="bg-primary-500 order-3 md:order-4 relative">
             <div class="flex flex-col justify-center flex-nowrap h-full">
