@@ -3,7 +3,7 @@
 <?= get_header() ?>
 
 <section class="page-header relative overflow-hidden bg-secondary-900 h-[300px]">
-    <div class="overlay absolute top-0 w-full h-full bg-green-950/85"></div>
+    <div class="overlay absolute top-0 w-full h-full bg-slate-900/70"></div>
     <img src="<?= get_template_directory_uri() ?>/images/vercor-sostenibilidad.jpg" class="object-cover object-center w-full h-full">
     <div class="absolute pb-20 bottom-0 left-0 right-0">
         <div class="site-container">

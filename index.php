@@ -1,11 +1,13 @@
 <?= get_header() ?>
 
-<section class="cover relative overflow-hidden bg-secondary-900 h-[450px] lg:h-[668px]">
+<section class="cover relative overflow-hidden bg-secondary-900 h-[380px] md:h-[420px] lg:h-[460px] xl:h-[680px]">
     <div class="overlay absolute top-0 w-full h-full bg-slate-900/70"></div>
     <img src="<?= get_template_directory_uri() ?>/images/vercor-bg-cover.jpg" class="object-cover object-center w-full h-full">
-    <div class="absolute bottom-14 md:bottom-16 xl:bottom-32 2xl:bottom-40 left-0 right-0">
+    <div class="absolute bottom-14 md:bottom-20 lg:bottom-24 xl:bottom-28 left-0 right-0">
         <div class="site-container">
-            <h1 class="text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-white font-bold">Más allá de las estructuras,<br>impulsamos lo que trasciende</h1>
+            <div class="md:max-w-2xl xl:max-w-5xl mx-auto">
+                <h1 class="text-center text-white text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-6xl font-bold shadow-lg">Más allá de las estructuras, impulsamos lo que trasciende.</h1>
+            </div>
         </div>
     </div>
 </section>

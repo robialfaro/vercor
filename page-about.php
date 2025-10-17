@@ -82,7 +82,7 @@
 </section>
 
 <section class="relative overflow-hidden h-[320px]">
-    <div class="overlay absolute top-0 w-full h-full bg-green-950/85"></div>
+    <div class="overlay absolute top-0 w-full h-full bg-slate-900/90"></div>
     <img src="<?= get_template_directory_uri() ?>/images/vercor-sostenibilidad.jpg" class="object-cover object-center w-full h-full">
     <div class="absolute bottom-0 top-0 left-0 right-0">
         <div class="site-container h-full">
@@ -110,7 +110,7 @@
                     </a>
                 </div>
                 <h4 class="text-xl md:text-2xl text-[#E3000F] font-semibold mb-4">Normas ISO</h4>
-                <p class="text-gray-600 md:text-lg mb-4">Aplicamos los más altos estándares internacionales establecidos por la Organización Internacional de Normalización (ISO)</p>
+                <p class="text-gray-600 md:text-lg mb-4">Aplicamos los más altos estándares internacionales establecidos por la Organización Internacional de Normalización (ISO).</p>
                 <ul class="text-gray-600 md:text-lg">
                     <li>- ISO 9001: Gestión de calidad.</li>
                     <li>- ISO 14001: Gestión ambiental.</li>
