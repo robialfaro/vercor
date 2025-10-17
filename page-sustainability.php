@@ -22,7 +22,7 @@
         <hr class="border-green-200 my-10">
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="p-8 md:p-10 bg-green-700 rounded-xl shadow-lg">
+            <div class="p-8 md:p-10 bg-green-200 rounded-xl shadow-lg">
                 <img src="<?= get_template_directory_uri() ?>/images/responsabilidad-social.jpg" class="rounded-lg mb-8 grayscale-50">
                 <h4 class="text-white text-xl md:text-2xl font-semibold mb-4">Responsabilidad social</h4>
                 <p class="text-green-100 mb-3">
