@@ -1,11 +1,17 @@
 <?php
 
 /**
+ * Includes
+ */
+require_once get_template_directory() . '/inc/fun_contact_form.php';
+
+/**
  * Carga los archivos CSS del tema
  */
 function load_css()
 {
     wp_enqueue_style('app', get_template_directory_uri() . '/css/app.css?=' . md5(rand()), array(), '5', 'all');
+    wp_enqueue_style('sweetalert2', get_template_directory_uri() . '/assets/sweetalert2/sweetalert2.min.css', array(), '11.26.3', 'all');
 }
 add_action('wp_enqueue_scripts', 'load_css');
 
@@ -15,6 +21,8 @@ add_action('wp_enqueue_scripts', 'load_css');
  */
 function load_js()
 {
+    wp_enqueue_script('jquery3.7.1', 'https://code.jquery.com/jquery-3.7.1.min.js', array(), '3.7.1', true);
+    wp_enqueue_script('sweetalert2', get_template_directory_uri() . '/assets/sweetalert2/sweetalert2.all.min.js', array(), '11.26.3', true);
     wp_enqueue_script('app', get_template_directory_uri() . '/js/app.js?=' . md5(rand()), array(), null, true);
 
     wp_localize_script(
